@@ -16,9 +16,9 @@ function cn(...inputs) {
 const navItems = [
   { label: "Dashboard", icon: Home, href: "/dashboard" },
   { label: "Modules", icon: Gamepad2, href: "#" },
-  { label: "Arsenal", icon: BookOpen, href: "#" },
-  { label: "Profile", icon: User, href: "#" },
-  { label: "Settings", icon: Settings, href: "#" },
+  { label: "Arsenal", icon: BookOpen, href: "/vault" },
+  { label: "Profile", icon: User, href: "/vault" },
+  { label: "Settings", icon: Settings, href: "/vault" },
 ];
 
 export default function DesktopSideNav() {

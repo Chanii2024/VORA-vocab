@@ -14,8 +14,8 @@ function cn(...inputs) {
 const navItems = [
   { label: "Dashboard", icon: Home, href: "/dashboard" },
   { label: "Modules", icon: Gamepad2, href: "#" },
-  { label: "Arsenal", icon: BookOpen, href: "#" },
-  { label: "Profile", icon: User, href: "#" },
+  { label: "Arsenal", icon: BookOpen, href: "/vault" },
+  { label: "Profile", icon: User, href: "/vault" },
 ];
 
 export default function MobileNav() {
