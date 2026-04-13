@@ -372,7 +372,7 @@ export default function ContextClimber() {
                 )}
               </AnimatePresence>
             </motion.div>
-          )}
+          ) : null}
         </AnimatePresence>
       </div>
 
