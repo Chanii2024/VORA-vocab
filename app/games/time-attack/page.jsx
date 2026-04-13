@@ -548,6 +548,7 @@ export default function TimeAttack() {
               </div>
             </motion.div>
           ) : null}
+        </AnimatePresence>
       </div>
     </main>
   );
