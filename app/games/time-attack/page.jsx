@@ -531,29 +531,6 @@ export default function TimeAttack() {
             ) : null}
           </AnimatePresence>
 
-                <div className="mt-8 flex justify-between gap-4">
-                   <button 
-                    onClick={() => {
-                      setReviewingMistakes(false);
-                      setGameState("finished");
-                    }}
-                    className="flex-1 py-4 bg-gray-100 text-vora-text text-[10px] uppercase font-bold rounded-xl tracking-widest hover:bg-gray-200"
-                   >
-                     Close
-                   </button>
-                   {currentMistakeIndex < mistakesLog.length - 1 && (
-                     <button 
-                      onClick={() => loadMistakeRationale(currentMistakeIndex + 1)}
-                      className="flex-1 py-4 bg-vora-primary text-white text-[10px] uppercase font-bold rounded-xl tracking-widest hover:bg-vora-primary-dark"
-                     >
-                       Next Error
-                     </button>
-                   )}
-                </div>
-              </div>
-            </motion.div>
-          )}
-
           {gameState === "finished" && showElevation && !reviewingMistakes && (
             <motion.div
               key="elevation"

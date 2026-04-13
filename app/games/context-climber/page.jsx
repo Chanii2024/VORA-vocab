@@ -247,11 +247,7 @@ export default function ContextClimber() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="w-full"
-            >
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="space-y-8"
+              className="w-full space-y-8"
             >
               {/* Massive Word Display */}
               <div className="text-center py-8">
