@@ -33,7 +33,13 @@ const games = [
     description: "Complete sentences in contextual scenarios.",
     href: "/games/context-climber",
   },
-  // Removed The Detective per PC optimization audit (narrowing focus).
+  {
+    title: "The Detective",
+    category: "Logic",
+    level: "Intermediate",
+    description: "Identify the hidden word through progressive clues.",
+    href: "/games/detective",
+  },
 ];
 
 export default function Dashboard() {
