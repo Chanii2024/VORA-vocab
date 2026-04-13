@@ -146,7 +146,7 @@ export default function DetectiveGame() {
           <div>
             <h1 className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-black leading-none mb-1">Bureau of Lexicon</h1>
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-black text-vora-text uppercase tracking-tighter">Case File: #VOR-{challenge?.wordId?.substring(0,4) || "0000"}</span>
+              <span className="text-xs font-black text-vora-text uppercase tracking-tighter">Case File: #VOR-{String(challenge?.wordId || "0000").substring(0,4)}</span>
             </div>
           </div>
         </div>
